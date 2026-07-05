@@ -2,6 +2,15 @@
 
 V2G is an interactive, AI-powered knowledge exploration tool that transforms YouTube videos into dynamic, explorable knowledge graphs. It allows users to visually navigate through the core concepts, topics, and definitions discussed in a video, making learning and comprehension significantly faster and more intuitive.
 
+## 🎯 The Problem
+Video platforms like YouTube host a massive wealth of educational content, but the medium is inherently linear. Extracting structured knowledge from long videos is tedious. Users often struggle to:
+- Quickly skim for specific concepts without scrubbing through the entire timeline.
+- Understand the hierarchical relationships between complex topics mentioned in a video.
+- Retain dense information presented sequentially.
+- Find specific definitions or examples buried deep within a lengthy transcript.
+
+**The Solution:** V2G breaks down this linear barrier. By converting spoken content into a non-linear, semantic graph, users can visually explore the "blueprint" of a video's knowledge in seconds, expanding branches only when they want deeper context.
+
 ## ✨ Features
 - **YouTube Integration:** Instantly extract transcripts and metadata from any public YouTube video. Fallback audio transcription uses **Groq API (Whisper)** when native transcripts are unavailable.
 - **AI-Powered Extraction:** Utilizes advanced LLMs (Primary: Google Gemini, Fallback: Sarvam AI) to semantically analyze transcripts and map out structured knowledge schemas (Nodes and Edges).
